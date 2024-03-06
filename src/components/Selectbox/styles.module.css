@@ -1,0 +1,65 @@
+.selectbox {
+  position: relative;
+  font-weight: 600;
+  width: 240px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.button {
+  text-transform: uppercase;
+  text-align: center;
+
+  width: 100%;
+  top: 380px;
+  left: 328px;
+  border-radius: 4px;
+  background: linear-gradient(97.64deg, #54f4df 19.69%, #2ab6fd 96.22%);
+}
+.buttonInner {
+  background: rgb(32, 33, 41);
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  color: #bac1cc;
+  padding: 7px 9px 5px 9px;
+  margin: 1px;
+  letter-spacing: 0.05em;
+}
+.buttonInner:hover {
+  background: rgb(24, 36, 39);
+}
+.dropdown {
+  position: absolute;
+  display: none;
+  width: 100%;
+  border: 1px solid #47c2e92e;
+  border-radius: 4px;
+  top: 42px;
+  left: 0;
+  background: rgb(32, 33, 41);
+  overflow: hidden;
+}
+.dropdownActive {
+  display: block;
+}
+.list {
+}
+.listItem {
+  position: relative;
+  color: #bac1cc;
+  padding: 10px 24px 8px 24px;
+  cursor: pointer;
+}
+.listItem:hover {
+  background: rgb(24, 36, 39);
+}
+.listItem:not(:last-of-type) {
+  border-bottom: 1px solid rgb(41, 43, 51);
+}
+.icon {
+  position: absolute;
+  right: 24px;
+  top: 14px;
+  width: 16px;
+  height: 13px;
+}
