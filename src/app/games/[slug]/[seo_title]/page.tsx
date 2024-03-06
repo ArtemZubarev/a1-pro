@@ -22,9 +22,9 @@ export const dynamicParams = false;
 export default async function Game({ params }: IProps) {
   const res = await getData();
   const data = res.find((item: Game) => item.seo_title === params.seo_title && params.slug === item.provider);
-  if (!data) {
-    notFound();
-  }
+  // if (!data) {
+  //   notFound();
+  // }
   const img = `${process.env.DB_IMAGES_URL}/${data.identifier}.webp`;
 
   return (
